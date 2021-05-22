@@ -18,7 +18,10 @@
 	- Dropout
 	- BatchNomarliztion
 	- 가중치 초기화
-	- 다양한 딥러닝 아키텍처
+	- AlexNet 딥러닝 아키텍처
+	- VGG-16, VGG-19 딥러닝 아키텍처
+	- ResNet 딥러닝 아키텍처
+	- DenseNet 딥러닝 아키텍처
 
 * 실습
 	- anaconda, pycharm 환경설정
