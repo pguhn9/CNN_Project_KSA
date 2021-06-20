@@ -46,13 +46,14 @@
 #### [팀명] 11시11분(11시11분)
 #### [팀장] 고기륜
 #### [팀원] 
+* 김재홍
 * 박건희
 * 정시원
 #### [프로젝트 내용]
 * 프로젝트 명: Object Detection 모델 학습, 평가
 * 프로젝트 구현: Single-Shot MultiBox Detector 모델로 앵무새 객체 Object Detection하는 프로그램 구현
 * 프로젝트 기간: 2021.06.20~06.10
-* 프로젝트 문서화
+* <a href="https://github.com/pguhn9/CNN_Project_KSA/blob/main/Project_ObjectDetection/ObjectDetection_Doc.md">프로젝트 문서화</a>
 
 
 
