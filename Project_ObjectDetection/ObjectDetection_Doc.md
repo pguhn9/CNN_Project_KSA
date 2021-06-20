@@ -41,28 +41,26 @@
    * **DataAugmentation** 
 
      * 회전
-
-       ```
-       <img src="" width="400px" height="400px" title="앵무_회전" alt="앵무_회전"></img><br/>
-       ```
-
+     
+       <img src="https://github.com/pguhn9/CNN_Project_KSA/blob/main/Project_ObjectDetection/images/%EC%95%B5%EB%AC%B4_90%EB%8F%84_%ED%9A%8C%EC%A0%84.PNG" width="400px" height="400px" title="앵무_회전" alt="앵무_회전"></img><br/>
+     
      * 이동
 
-       <img src="" width="400px" height="400px" title="앵무_회전" alt="앵무_회전"></img><br/>
+       <img src="https://github.com/pguhn9/CNN_Project_KSA/blob/main/Project_ObjectDetection/images/%EC%95%B5%EB%AC%B4_%EC%9D%B4%EB%8F%991.PNG" width="400px" height="400px" title="앵무_이동" alt="앵무_이동"></img><br/>
 
      * 뒤집기
 
-       <img src="" width="400px" height="400px" title="앵무_회전" alt="앵무_회전"></img><br/>
+       <img src="https://github.com/pguhn9/CNN_Project_KSA/blob/main/Project_ObjectDetection/images/%EC%95%B5%EB%AC%B4_%ED%94%8C%EB%A6%BD.PNG" width="400px" height="400px" title="앵무_뒤집기" alt="앵무_뒤집기"></img><br/>
 
      * 확대 및 축소
 
-       <img src="" width="400px" height="400px" title="앵무_회전" alt="앵무_회전"></img><br/>
+       <img src="https://github.com/pguhn9/CNN_Project_KSA/blob/main/Project_ObjectDetection/images/%EC%95%B5%EB%AC%B4_%EB%A6%AC%EC%82%AC%EC%9D%B4%EC%A6%88.PNG" width="400px" height="400px" title="앵무_리사이즈" alt="앵무_리사이즈"></img><br/>
 
 4. 모델 선정 및 학습
 
    * SSD - Backbone Network(VGG-16)
 
-     <img src="" width="400px" height="400px" title="앵무_회전" alt="앵무_회전"></img><br/>
+     <img src="https://github.com/pguhn9/CNN_Project_KSA/blob/main/Project_ObjectDetection/images/SSD_backbone(VGG16).PNG" width="800px" height="300px" title="ssd_vgg16" alt="ssd_vgg16"></img><br/>
 
    * 전이학습
 
@@ -83,7 +81,7 @@
 
    * **loss** 그래프
 
-     <img src="" width="400px" height="400px" title="앵무_회전" alt="앵무_회전"></img><br/>
+     <img src="https://github.com/pguhn9/CNN_Project_KSA/blob/main/Project_ObjectDetection/images/SSD_Loss_graph74.PNG" width="400px" height="400px" title="SSD_Loss_graph" alt="SSD_Loss_graph"></img><br/>
 
      epoch이 진행될수록 train과 validation의 성능 차이가 커지는 것으로 보아 더 큰  epoch으로 성능 향상을 기대하기는 힘들 것으로 보임.
 
@@ -95,19 +93,19 @@
 
    * Test image result
 
-     <img src="" width="400px" height="400px" title="앵무_회전" alt="앵무_회전"></img><br/>
+     <img src="https://github.com/pguhn9/CNN_Project_KSA/blob/main/Project_ObjectDetection/images/%EC%95%B5%EB%AC%B4%EC%95%BC3.PNG" width="400px" height="400px" title="앵무_결과1" alt="앵무_결과1"></img><br/>
 
-     <img src="" width="400px" height="400px" title="앵무_회전" alt="앵무_회전"></img><br/>
+     <img src="https://github.com/pguhn9/CNN_Project_KSA/blob/main/Project_ObjectDetection/images/%EC%95%B5%EB%AC%B4%EC%95%BC2.PNG" width="400px" height="400px" title="앵무_결과2" alt="앵무_결과2"></img><br/>
 
-     <img src="" width="400px" height="400px" title="앵무_회전" alt="앵무_회전"></img><br/>
+     <img src="https://github.com/pguhn9/CNN_Project_KSA/blob/main/Project_ObjectDetection/images/%EC%95%B5%EB%AC%B4%EC%95%BC4.PNG" width="400px" height="400px" title="앵무_결과3" alt="앵무_결과3"></img><br/>
 
    * Parrot AP Graph
 
-     <img src="" width="400px" height="400px" title="앵무_회전" alt="앵무_회전"></img><br/>
+     <img src="https://github.com/pguhn9/CNN_Project_KSA/blob/main/Project_ObjectDetection/images/parrot_AP_graph1.png" width="400px" height="800px" title="parrot_AP_graph1" alt="parrot_AP_graph1"></img><br/>
 
    * Parrot mAP(mean Average Precision)
 
-     <img src="" width="400px" height="400px" title="앵무_회전" alt="앵무_회전"></img><br/>
+     <img src="https://github.com/pguhn9/CNN_Project_KSA/blob/main/Project_ObjectDetection/images/parrot_AP_mAP1.PNG" width="400px" height="500px" title="parrot_AP_mAP1" alt="parrot_AP_mAP1"></img><br/>
 
      Gpffin과 sulphur_crested cockatoo에 대해서는 100의 평균 정밀도를 보임.
 
